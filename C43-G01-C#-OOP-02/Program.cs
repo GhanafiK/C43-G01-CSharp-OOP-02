@@ -98,9 +98,21 @@ namespace C43_G01_C__OOP_02
             #region Assignment
 
             #region Part 02
+
             #region part 02 - Q01
 
+            //Person[] person = new Person[3];
+            //person[0] = new Person(23,"Gamal");
+            //person[1] = new Person(24,"Ali");
+            //person[2] = new Person(25,"Mona");
+
+            //for(int i = 0; i < person.Length; i++)
+            //{
+            //    Console.WriteLine(person[i]);
+            //}
+
             #endregion
+
             #endregion
 
             #endregion
