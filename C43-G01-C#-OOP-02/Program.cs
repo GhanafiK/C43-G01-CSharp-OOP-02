@@ -98,7 +98,9 @@ namespace C43_G01_C__OOP_02
             #region Assignment
 
             #region Part 02
+            #region part 02 - Q01
 
+            #endregion
             #endregion
 
             #endregion
