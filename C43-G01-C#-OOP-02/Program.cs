@@ -79,6 +79,20 @@ namespace C43_G01_C__OOP_02
             #endregion
 
             #endregion
+
+            #region Class
+
+            //Car c1 = new Car(10,"BMW",290);
+            //Console.WriteLine(c1);
+
+            //Car c2 = new Car(10, "BMW");
+            //Console.WriteLine(c2);
+
+            //Car c3 = new Car(10);
+            //Console.WriteLine(c3);
+
+            #endregion
+
             #endregion
 
 
