@@ -28,7 +28,7 @@ namespace C43_G01_C__OOP_02
 
             //emp.Age = 23;
             //Console.WriteLine($"new age: {emp.Age}");
-            
+
             #endregion
 
             #region full property
@@ -56,6 +56,25 @@ namespace C43_G01_C__OOP_02
             //note.setNumber(999, "Gamal");
 
             //Console.WriteLine(note.GetNumber("Gamal"));
+
+            #endregion
+
+            #region Indexer Property
+
+            //phoneBook note1= new phoneBook(3);
+            //note1.addPerson(0, "Gamal", 111);
+            //note1.addPerson(1, "ahmed", 222);
+            //note1.addPerson(2, "monaa", 333);
+
+            //Console.WriteLine(note1["monaa"]);
+            //note1["monaa"] = 444;
+            //Console.WriteLine(note1["monaa"]);
+
+            ////applying indexer overloadding
+            //for(int i = 0; i < note1.size; i++)
+            //{
+            //    Console.WriteLine(note1[i]);
+            //}
 
             #endregion
 

@@ -11,7 +11,7 @@ namespace C43_G01_C__OOP_02.Encapsu_ation
         #region attributes
         string[] names;
         int[] numbers;
-        int size;
+        public int size;
         #endregion
 
         #region Constructor
@@ -56,6 +56,35 @@ namespace C43_G01_C__OOP_02.Encapsu_ation
                 }
             }
         } 
+
+        public int this[string name]
+        {
+            get
+            {
+                for(int i=0;i< names.Length; i++)
+                    if (names[i]==name)
+                        return numbers[i];
+                return -1;     
+            }
+
+            set
+            {
+                for (int i = 0; i < names.Length; i++)
+                    if (names[i] == name)
+                    {
+                        numbers[i] = value;
+                        break;
+                    }              
+            }
+        }
+
+        public string this[int position]// indexer overloadding
+        {
+            get
+            {
+                return $"{position} ::: {names[position]} :::{numbers[position]}";
+            }
+        }
         #endregion
     }
 }
